@@ -7,7 +7,7 @@ public class PizzaMadnessApplication {
 
     public static void main(String[] args) {
 
-        Pizza cheese = new NYPizzaStore().createPizza("cheese");
+        Pizza cheese = new NYPizzaStore().orderPizza("cheese");
         System.out.println(cheese.toString());
     }
 }
